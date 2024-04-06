@@ -20,13 +20,17 @@ A Binary Search Tree (BST) is a Binary Tree with some exceptions so that the dat
 ## Balanced Binary Search Trees
 A Balanced Binary Search Tree (Balanced BST) is a BST where the height of the tree is kept minimal by keeping left and right subtrees of each node as close to the same height as possible. The **Height of a Tree** is the maximum number of nodes between the root and leaves. The closer your tree is to being balanced the better efficent your tree will be. A Balanced BST will have the efficiency of O(log n). Balance is not achived on accident we rely on algorithms to maintain balance some common algorithms include: AVL Trees and Red-Black Trees. 
 
-![Figure 3](Balanced_Unbalanced.JPG)
+![Figure 3](/Balanced_Unbalanced.JPG)
 
 ### AVL Trees
 AVL trees don't allow the height difference between subtrees to be greater than one. If the height difference is ever greater than one a rotation is preformed.
 
+![Figure 4](/AVL_tree.JPG)
+
 ### Red-Black Trees
 In a Red-Black tree every node caries and extra bit marking it as either red or black (the root is always black). Red nodes cannot have red children. Every path from a node to its descendant null nodes contains the same number of black nodes. New nodes are always red. If the height of the black nodes are out of balance color changes and a rotation is preformed.
+
+![Figure 5](/Red-Black_tree.JPG)
 
 <br>
 
