@@ -17,7 +17,7 @@ The stack is used in more than just functions like undo. Anytime a function is c
 ![Figure 3](/Assets/Function_Stack.JPG)
 
 ## Example
-In this example we will use uppend to push integers into a list called stack and pop to remove integers from the back of the stack.
+In this example we will use append to push integers into a list called stack and pop to remove integers from the back of the stack.
 
 ```python
 stack = []
