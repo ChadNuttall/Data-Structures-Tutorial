@@ -83,4 +83,4 @@ stack.uppend("Y")
 stack.uppend("Z")
 print(stack)
 ```
-You can check your code with the solution here: ![Solution](stack_solution.py)
+You can check your code with the solution here: ![Solution](/Solutions/stack_solution.py)
