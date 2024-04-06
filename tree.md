@@ -1,7 +1,7 @@
 # Tree
 Trees are a data structure that consists of nodes similar to linked lists. Both linked lists and trees are connected by **Pointers**. Each node in a tree can connect via pointers to multiple other **Child Nodes**. This allows us to create a **Hierarchical Structure** that is unavailable in linked lists. The topmost node is called the **Root** and can have no parent nodes. The nodes with no children are called **Leaf Nodes**. We will discuss several types of trees Binary Trees, Binary Search Trees, and Balanced Binary Search Trees.
 
-![Figure 1](/Trees.JPG)
+![Figure 1](/Assets/Trees.JPG)
 
 <br>
 
@@ -13,14 +13,14 @@ In a Binary Tree no node connects to more than 2 child nodes or **Subtrees**. It
 ## Binary Search Trees
 A Binary Search Tree (BST) is a Binary Tree with some exceptions so that the data will be **Stored**. When adding data to a BST first compare the data being placed in the tree with the parent node. If the value of the data being added is less than the value of the parent it is added to the **Left** subtree. On the other hand if the value of the data being added is greater than the value of the parent it is added to the **Right** subtree.
 
-![Figure 2](/Hierarchy.JPG)
+![Figure 2](/Assets/Hierarchy.JPG)
 
 <br>
 
 ## Balanced Binary Search Trees
 A Balanced Binary Search Tree (Balanced BST) is a BST where the height of the tree is kept minimal by keeping left and right subtrees of each node as close to the same height as possible. The **Height of a Tree** is the maximum number of nodes between the root and leaves. The closer your tree is to being balanced the better efficent your tree will be. A Balanced BST will have the efficiency of O(log n). Balance is not achived on accident we rely on algorithms to maintain balance some common algorithms include: AVL Trees and Red-Black Trees. 
 
-![Figure 3](/Balanced_Unbalanced.JPG)
+![Figure 3](/Assets/Balanced_Unbalanced.JPG)
 
 ### AVL Trees
 AVL trees don't allow the height difference between subtrees to be greater than one. If the height difference is ever greater than one a rotation is preformed.
@@ -30,7 +30,7 @@ AVL trees don't allow the height difference between subtrees to be greater than 
 ### Red-Black Trees
 In a Red-Black tree every node caries and extra bit marking it as either red or black (the root is always black). Red nodes cannot have red children. Every path from a node to its descendant null nodes contains the same number of black nodes. New nodes are always red. If the height of the black nodes are out of balance color changes and a rotation is preformed.
 
-![Figure 5](/Red-Black_tree.JPG)
+![Figure 5](/Assets/Red-Black_tree.JPG)
 
 <br>
 
