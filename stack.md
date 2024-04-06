@@ -9,12 +9,12 @@ The concept of Last in First Out can be visualized much like a stack of pancakes
 ## UNDO
 You are likely familiar with the undo, redo function common in many computer programs like mircosoft word. These functions are made possible with the utilization of the stack. As you type each word is sent as a command to be displayed on the screen as well as pushed onto a stack. If you were to type the phrase "It's not easy being green" the most recent push would have been "green" and "green" would be at the back of your stack. Now as you then use the undo function you pop the data at the back of the stack which is "green" and your phrase now says "It's not easy being" This is how undo is able to acuratly undo in the right order. 
 
-![Figure 2](Not_Easy_Being_Green.jpg)
+![Figure 2](/Not_Easy_Being_Green.JPG)
 
 ## THE FUNCTION STACK
 The stack is used in more than just functions like undo. Anytime a function is called it is first pushed to the function stack also known as a machine stack or an execution stack. If there are no other functions called the function will be poped from the function stack and executed. In the case that another function is called that function will be pushed to the stack and executed unless antother function is called and so on. Here is an example using 
 
-![Figure 3](Function_Stack.jpg)
+![Figure 3](/Function_Stack.JPG)
 
 ## Example
 In this example we will use uppend to push integers into a list called stack and pop to remove integers from the back of the stack.
