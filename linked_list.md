@@ -213,4 +213,4 @@ if __name__ == "__main__":
 ## Your Turn
 Write a program that will store each letter of the alphabet in a linked list and display the results.
 
-You can check your code with the solution here: ![Solution](linked_list_solution.py)
+You can check your code with the solution here: ![Solution](/Solutions/linked_list_solution.py)
