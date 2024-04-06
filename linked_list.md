@@ -4,13 +4,13 @@ Linked lists are used to storing and managing collections of data. You are likel
 
 The starting point of the linked list is called the **Head**. The has the reference for the first node in the list. By starting at the head and following the pointers you can travers the entire list.
 
-![Figure 1](/assets/linked_list.jpg)
+![Figure 1](/linked_list.JPG)
 
 <br>
 
 The andvatages of Linked Lists can be increased with the use of a **Doubly Linked List**. In a doubly linked list each pointer stores not only the link to the next node but also a link to the previous node which allows you to travers the list in both directions. A doubly linked list will include both a Head and a **Tail**.
 
-![Figure 2](/assets/Doubly_Linked_List.jpg)
+![Figure 2](/Doubly_Linked_List.JPG)
 
 <br>
 
