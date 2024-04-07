@@ -34,6 +34,22 @@ stack.pop()
 print(stack)
 # stack will return 5, 4, 3, 2, 1
 ```
+```python
+stack = []
+stack.append(1) # [1]
+stack.append(2) # [1, 2]
+stack.append(3) # [1, 2, 3]
+stack.append(8) # [1, 2, 3, 8]
+stack.pop()     # [1, 2, 3]
+stack.append(5) # [1, 2, 3, 5]
+stack.append(12) # [1, 2, 3, 5, 12]
+stack.append(9) # [1, 2, 3, 5, 12, 9]
+stack.pop() # [1, 2, 3, 5, 12]
+stack.pop() # [1, 2, 3, 5]
+print(stack)
+# stack will return 5, 3, 2, 1
+```
+
 
 ## Your Turn
 Without running the code predict what will be printed.
