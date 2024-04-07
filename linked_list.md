@@ -104,7 +104,7 @@ In this example we are making a music player application, and we need to impleme
 
 class Song:
     def __init__(self, title, artist):
-        # Initialize a Song including title, artist, duration
+        # Initialize a Song including title and artist
         self.title = title
         self.artist = artist
         self.next = None  # Pointer to the next song in the playlist
